@@ -7,7 +7,8 @@ int main()
     int nume_da_ind = 50;
     int numero_inserito = 0 ;
     //ripeto
-    for ( ; nume_da_ind != numero_inserito ; ){
+    while ( nume_da_ind != numero_inserito  )
+    {
 
         printf("inserisci un numero: ");
         scanf("%d", &numero_inserito) ;
@@ -15,11 +16,10 @@ int main()
 
         if (nume_da_ind == numero_inserito)
             printf("hai indovinato\n") ;
+    }
+
+} 
 
 
-    } 
 
 
-
-
-}
